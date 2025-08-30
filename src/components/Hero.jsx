@@ -1,7 +1,7 @@
 import gsap from "gsap";
 import { useGSAP } from "@gsap/react";
 import { ScrollTrigger } from "gsap/all";
-import { TiLocationArrow } from "react-icons/ti";
+import { TiDevicePhone, TiHeart, TiHome, TiLocationArrow } from "react-icons/ti";
 import { useEffect, useRef, useState } from "react";
 
 import Button from "./Button";
@@ -155,9 +155,9 @@ const Hero = () => {
             </p>
 
             <Button
-              id="watch-trailer"
-              title="Watch trailer"
-              leftIcon={<TiLocationArrow />}
+              id="join-UMAPORTAL"
+              title="Join UMAPORTAL"
+              leftIcon={<TiHeart />}
               containerClass="bg-blue-500 flex-center gap-1"
             />
           </div>
