@@ -1,7 +1,10 @@
+import Hero from "./components/Hero";
+
 export default function App() {
   return (
-    <div className="flex items-center justify-center min-h-screen bg-gray-900 text-white">
-      <h1 className="text-5xl text-orange-500 font-bold">Hello React + Tailwind 🚀</h1>
-    </div>
+    <main className="relative min-h-screen w-screen overflow-x-hidden">
+      <Hero/>
+      <section className="z-9 min-h-screen bg-slate-500"/>
+    </main>
   )
 }
