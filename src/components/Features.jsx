@@ -73,13 +73,13 @@ const Features = () => {
           </p>
         </div>
 
-        <div className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
+        <BentoTilt className="border-hsla relative mb-7 h-96 w-full overflow-hidden rounded-md md:h-[65vh]">
           <BentoCard
             src="videos/feature-1.mp4"
             title={<>Radiant</>}
             description="Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo, atque."
           />
-        </div>
+        </BentoTilt>
 
         <div className="grid h-[135vh] grid-cols-2 grid-rows-3 gap-7">
           <BentoTilt className="bento-tilt_1 row-span-1 md:col-span-1 md:row-span-2">
