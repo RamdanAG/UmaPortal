@@ -1,20 +1,15 @@
-import Hero from "./components/Hero";
-import About from "./components/About";
-import Navbar from "./components/Navbar";
-import Features from "./components/Features";
-import Story from "./components/Story";
-import Contact from "./components/Contact";
-
+import { Routes, Route } from "react-router-dom";
+import Home from "./pages/Home";
+import Login from "./pages/Login";
+// import About from "./pages/About"; 
+// import Contact from "./pages/Contact";
 
 export default function App() {
   return (
-    <main className="relative min-h-screen w-screen overflow-x-hidden">
-      <Navbar/>
-      <Hero/>
-      <About/>
-      <Features/>
-      <Story/>
-      <Contact/>
-    </main>
-  )
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/Login" element={<Login />} />
+      {/* <Route path="/contact" element={<Contact />} /> */}
+    </Routes>
+  );
 }
